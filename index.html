@@ -20,34 +20,51 @@
         <!-- nesting h1 -->
         <h1> Mahatma Gandhi</h1>
     </header>
+    <nav class="navmenu">
+        <ul class="listnavmenu">
+          <li class="home"><a href="index.html">Home</a></li>
+          <li class="submenu">
+            <a href="#">Media</a>
+            <ul class="listsubmenu">
+              <li class="gallery"><a href="gallery.html">Gallery</a></li>
+              <li class="video"><a href="video.html">Video</a></li>
+            </ul>
+          </li>
+          <li class="contact"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      
     <main>
         <!-- nesting 3 section tag  -->
-        <section>
+        
             <h2>
                 Biography
             </h2>
-            <p>
-                <b>he is Mahatma</b>
-                <em>he is Gandhi</em>
-                <strong>Mohandas Karamchand Gandhi</strong> famously known as, Mahatma Ghandi, was born in 1869 in Gujarat, India. Gandhi studied law at the Inner Temple in London. After unsuccessfully attempting to practise in India, he moved to South Africa in 1893, where he stayed for 21 years. It was in South Africa that Gandhi first ised tactics of non-voilent resistance to campaign for civil rights. The activism gained Gandhi the title Mahatma, meaning '<i>great soul</i>'.
-            </p>
-        </section>
-        <section>
-            <h2>
-                Images
-            </h2>
-            <figure>
-                <!-- adding image through relative reference -->
-                <img class="mainimg" src="images/MahatmaGandhi.jpg" alt="cartoon photo of Mahatma Gandhi" title="Mahatma Gandhi">
-                <figcaption> <b>gandhi in color</b> </figcaption>
-            </figure>
-            <figure>
-                <!-- adding image through absolute reference  -->
-                <img class="mainimg" src="https://assets.editorial.aetnd.com/uploads/2010/07/mahatma-gandhi-gettyimages-102701091-2048x2048-1.jpg?width=768" alt="black and white photo of Mahatma Gandhi" title="Mahatma Gandhi">
-                <figcaption><b> gandhi in black and white </b></figcaption>
-            </figure>
-        </section>
-        <section>
+            <section class="biography">
+                
+                    <figure class="circular-image">
+                        <img class="mainimg" src="images/MahatmaGandhi.jpg" alt="cartoon photo of Mahatma Gandhi" title="Mahatma Gandhi">
+                        <figcaption> <b>gandhi in color</b> </figcaption>
+                    </figure>
+                
+                
+                    <p>
+                        <b>he is Mahatma</b>
+                        <em>he is Gandhi</em>
+                        <strong>Mohandas Karamchand Gandhi</strong> famously known as, Mahatma Ghandi, was born in 1869 in Gujarat, India. Gandhi studied law at the Inner Temple in London. After unsuccessfully attempting to practise in India, he moved to South Africa in 1893, where he stayed for 21 years. It was in South Africa that Gandhi first ised tactics of non-voilent resistance to campaign for civil rights. The activism gained Gandhi the title Mahatma, meaning '<i>great soul
+                            <b>he is Mahatma</b>
+                            <em>he is Gandhi</em>
+                            <strong>Mohandas Karamchand Gandhi</strong> famously known as, Mahatma Ghandi, was born in 1869 in Gujarat, India. Gandhi studied law at the Inner Temple in London. After unsuccessfully attempting to practise in India, he moved to South Africa in 1893, where he stayed for 21 years. It was in South Africa that Gandhi first ised tactics of non-voilent resistance to campaign for civil rights. The activism gained Gandhi the title Mahatma, meaning '<i>great soul
+                        </i>'.
+                    </p>
+                
+            </section>
+            
+            
+        
+        
+       
+        <section class="quote">
             <h2>
                 Quotes
             </h2>
@@ -57,6 +74,34 @@
                     Live as if you were to die tomorrow. Learn as if you were to live forever.
                 </q>--><a href="https://www.brainyquote.com/quotes/mahatma_gandhi_133995"><cite>Mahatma Gandhi</cite></a>
             </p>
+        </section>
+        <section class="table">
+            <table>
+                <thead>
+                    <tr>                  
+                        <th>Year</th>
+                        <th>Event</th>
+                        <th>Place</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>                        
+                        <td>1950</td>                    
+                        <td>Africa</td>
+                        <td>this this this</td>
+                    </tr>
+                    <tr>                        
+                        <td>1954</td>
+                        <td>India</td>
+                        <td>this that this</td>                    
+                    </tr>
+                    <tr>
+                        <td>1955</td>
+                        <td>India</td>
+                        <td>that this that</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
     <aside>

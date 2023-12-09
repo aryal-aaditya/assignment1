@@ -1,0 +1,241 @@
+/*
+    Name: Aaditya Aryal
+    Student Number: 8910228
+*/
+
+body{
+    font: italic small-caps normal 13px/200%;
+    padding: 15px;
+    max-width: 100vw;
+    width: 96vw;
+    margin:auto;
+    background-color: rgb(245, 245, 188);
+    /* background-color: rgb(146, 200, 247); */
+}
+
+.header, .footer{
+    border: 5px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    /* background-color: rgb(247, 208, 157); */
+    background-image: linear-gradient(to right, yellow, rgb(10, 235, 10));
+}
+
+
+h1 , h2 {
+    color:blue;
+    font-variant: small-caps;
+}
+
+footer p{
+    font-size: small;
+    color: indigo;
+    /* background-color: rgb(202, 180, 153); */
+}
+
+main{
+    float: left;
+    width: 70vw;
+    margin: 6px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    height: auto;
+}
+aside{
+    background-image: url("/images/gandhiaside.jpg");
+    float:right;
+    width: 20vw;
+    height: 100%;
+    margin: 4px;
+    padding:7px;
+    border-radius: 10px;
+    /* background-color: beige; */
+}
+aside ul li a{
+  color: indigo;
+}
+footer{
+    clear:both;
+
+}
+
+.mainimg{
+    border:3px solid blue;
+}
+figcaption{
+    font:bold;
+    font-variant:small-caps;
+
+}
+q{
+    font-style: italic;
+    line-height: 200%;
+    font-size: x-large;
+    font-family: Brush Script MT;
+}
+
+ul li {
+    list-style-type: none;
+    line-height: 20px;
+    
+}
+.quote p a cite{
+  color: indigo;
+}
+
+ul >li> a{
+    text-decoration: none;
+    color: blue;
+    line-height: 10px;
+}
+
+li a:hover{
+    color:red;
+}
+
+.navmenu {
+    background-color: #bada55;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 0px 45px 10px 45px;
+  }
+  
+  nav ul {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav >ul> li {
+    display:inline-block block;
+    position: relative;
+  }
+  nav ul li ul{
+    display: none;
+  } nav ul li :hover ul{
+    display:block;
+  }
+
+
+  .navmenu a {
+    display: block;
+    padding: 10px;
+    color: indigo;
+    text-decoration: none;
+    border: 2px solid indigo;
+    background-color: cornsilk;
+    border-radius: 10px;
+  }
+  
+  .navmenu a:hover {
+    color: cornsilk;
+    border-color: cornsilk;
+    background-color: indigo;
+  }
+
+ 
+  
+  .listsubmenu{
+    position: absolute;
+    z-index: 999;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 0px 30px 0px 30px;
+    width: auto;
+  }
+  .listsubmenu{
+    display: none;
+    
+  }
+  
+  nav ul li:hover .listsubmenu {
+    display: block;
+  }
+  
+  .listsubmenu li {
+    margin: 10px;
+    
+  }
+  
+  .listsubmenu a {
+    width: auto;
+    display: block;
+    color: indigo;
+    text-decoration: none;
+  }
+  
+  .listsubmenu a:hover {
+    color: cornsilk;
+    background-color: indigo;
+  }
+  
+
+  /*index.html*/
+.biography{
+    display: flex;
+}
+
+table{
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+}
+td, th{
+  border: 1px solid black;
+}
+th{
+  background-color: navajowhite;
+}
+td{
+  background-color: aquamarine;
+}
+
+
+
+/*contact.html*/
+
+form {
+  border: 5px dashed blueviolet;
+  padding: 5px;
+}
+
+input[type="text"], 
+input[type="email"],
+input[type="submit"],
+input[type="select"],
+input[type="option"]{
+  width: 50%;
+  display: block;
+  height: 2em;
+}
+input[type="radio"],
+input[type="checkbox"]{
+  height: 2em;
+  width: 2em;
+}
+
+select, option, label, legend, input[type="submit"]{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+textarea{
+  width: 50%;
+  display: block;
+}
+fieldset{
+  border: none;
+}
+
+/*gallery.html*/
+
+
+
+
+
+/*video.html*/

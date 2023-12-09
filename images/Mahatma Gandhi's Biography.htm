@@ -1,0 +1,170 @@
+<!-- 
+    Name: Aaditya Aryal
+    Student Number: 8910228
+ -->
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linking css files -->
+    <link rel="stylesheet" type="text/css" href="Mahatma%20Gandhi's%20Biography_files/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Mahatma%20Gandhi's%20Biography_files/main.css">
+    <title>Mahatma Gandhi's Biography</title>
+    <meta name="keywords" content="name:mahatma gandhi, Categories:biography, country:india, big about:personality, position:father">
+    <meta name="description" content="birthday, birthplace, black and white image, cartoon image, africa civil right, independence">
+</head>
+<body data-new-gr-c-s-check-loaded="8.909.0" data-gr-ext-installed="">
+    <!-- adding semantic elements -->
+    <header class="header">
+        <!-- nesting h1 -->
+        <h1> Mahatma Gandhi</h1>
+    </header>
+    <nav class="navmenu">
+        <ul class="listnavmenu">
+          <li class="home"><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+          <li class="submenu">
+            <a href="#">Media</a>
+            <ul class="listsubmenu">
+              <li class="gallery"><a href="http://127.0.0.1:5500/gallery.html">Gallery</a></li>
+              <li class="video"><a href="http://127.0.0.1:5500/video.html">Video</a></li>
+            </ul>
+          </li>
+          <li class="contact"><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+    <main>
+        <!-- nesting 3 section tag  -->
+        
+            <h2>
+                Biography
+            </h2>
+            <section class="biography">
+                <section>
+                    <h2>
+                        Image
+                    </h2>
+                    <figure>
+                        <img class="mainimg" src="Mahatma%20Gandhi's%20Biography_files/MahatmaGandhi.jpg" alt="cartoon photo of Mahatma Gandhi" title="Mahatma Gandhi">
+                        <figcaption> <b>gandhi in color</b> </figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <p>
+                        <b>he is Mahatma</b>
+                        <em>he is Gandhi</em>
+                        <strong>Mohandas Karamchand Gandhi</strong> 
+famously known as, Mahatma Ghandi, was born in 1869 in Gujarat, India. 
+Gandhi studied law at the Inner Temple in London. After unsuccessfully 
+attempting to practise in India, he moved to South Africa in 1893, where
+ he stayed for 21 years. It was in South Africa that Gandhi first ised 
+tactics of non-voilent resistance to campaign for civil rights. The 
+activism gained Gandhi the title Mahatma, meaning '<i>great soul</i>'.
+                    </p>
+                </section>
+            </section>
+            
+            
+        
+        
+       
+        <section class="quote">
+            <h2>
+                Quotes
+            </h2>
+            <p>
+                <!-- quoting using cite attribute -->
+                <q cite="https://www.brainyquote.com/quotes/mahatma_gandhi_133995">
+                    Live as if you were to die tomorrow. Learn as if you were to live forever.
+                </q>--&gt;<a href="https://www.brainyquote.com/quotes/mahatma_gandhi_133995"><cite>Mahatma Gandhi</cite></a>
+            </p>
+        </section>
+        <section class="table">
+            <table>
+                <thead>
+                    <tr>                  
+                        <th>Year</th>
+                        <th>Event</th>
+                        <th>Place</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>                        
+                        <td>1950</td>                    
+                        <td>Africa</td>
+                        <td>this this this</td>
+                    </tr>
+                    <tr>                        
+                        <td>1954</td>
+                        <td>India</td>
+                        <td>this that this</td>                    
+                    </tr>
+                    <tr>
+                        <td>1955</td>
+                        <td>India</td>
+                        <td>that this that</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <aside>
+        <h2>
+            Additional Information
+        </h2>
+        <ul>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi" target="_blank"> wikipedia</a>
+            </li>
+            <li>
+                <a href="https://www.britannica.com/biography/Mahatma-Gandhi" target="_blank"> Britanica</a>
+            </li>
+        </ul>
+    </aside>
+    <footer class="footer">
+        <!-- nesting p tag  -->
+        <p>
+            ©, Aaditya Aryal, 2023
+        </p>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
