@@ -44,7 +44,7 @@ main{
     height: auto;
 }
 aside{
-  background-image: url("images/gandhiaside.jpg");
+  background-image: url("/images/gandhiaside.jpg");
     float:right;
     width: 20vw;
     /* height: 130.5vh; */
@@ -319,7 +319,7 @@ fieldset{
   }
   aside{
     margin: 0%;
-    background-image: url("images/gandhiaside1.jpg");
+    background-image: url("/images/gandhiaside1.jpg");
   }
 
 }
@@ -345,7 +345,7 @@ fieldset{
     margin: 0%;
     font-size: 7px;
     width: 23vw;
-    background-image: url("images/gandhiaside2.jpg");
+    background-image: url("/images/gandhiaside2.jpg");
   }
   .image-container {
     grid-template-columns: repeat(2, 1fr);
