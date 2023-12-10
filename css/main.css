@@ -44,7 +44,7 @@ main{
     height: auto;
 }
 aside{
-  background-image: url("/images/gandhiaside.jpg");
+  background-image: url("https://cdn.dribbble.com/users/894327/screenshots/2274426/media/dc84edd5024fa5ec8f8cf1c2c0510633.jpg?resize=400x300&vertical=center");
     float:right;
     width: 20vw;
     /* height: 130.5vh; */
@@ -319,7 +319,7 @@ fieldset{
   }
   aside{
     margin: 0%;
-    background-image: url("/images/gandhiaside1.jpg");
+    background-image: url("https://i.pinimg.com/736x/fa/e7/10/fae710e2b553c77d9e8ffc055edff4e6.jpg");
   }
 
 }
@@ -345,7 +345,7 @@ fieldset{
     margin: 0%;
     font-size: 7px;
     width: 23vw;
-    background-image: url("/images/gandhiaside2.jpg");
+    background-image: url("https://c8.alamy.com/comp/2AR228C/26th-jan-republic-day-diy-paper-cut-outs-of-mahatma-gandhi-with-an-indian-flag-on-white-background-tricolor-saffron-green-and-white-color-26-jan-2AR228C.jpg");
   }
   .image-container {
     grid-template-columns: repeat(2, 1fr);
